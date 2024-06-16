@@ -69,7 +69,7 @@ Create a `.env` file in the `server` directory with the following content:
     ```bash
     npm run dev
     ```
-    The client development server will start on ```http://localhost:3000.```
+    The client development server will start on ```http://localhost:5173.```
 
 
 ### Model
