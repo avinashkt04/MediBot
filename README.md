@@ -2,6 +2,15 @@
 
 Medibot is a web application for diagnosing health conditions based on user-provided symptoms. It features a responsive user interface, authentication via Gmail and Google OAuth, and a diagnosis assistant powered by a machine learning model.
 
+
+## Cloning
+To clone this repository to your local machine, open a new folder and run the following command in terminal:
+
+```bash
+git clone https://github.com/avinashkt04/MediBot.git
+```
+    
+
 ## Installation
 
 ### Server
