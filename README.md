@@ -113,6 +113,14 @@ Make sure to replace `http://localhost:8000` with your actual server URL if it's
 
 **Note:** If you choose not to configure Google Developer Console for OAuth, the application will still function. Users can't use the "Continue with Google" feature, but they can authenticate using email.
 
+## Running the Application
+
+1. After completing the installation and starting the servers for the server and client, open Google Chrome or any web browser.
+
+2. Enter `http://localhost:5173` in the address bar and press Enter.
+
+This will open the Medibot web application in your browser.
+
 ## Screenshots
 
 ### Home Page
