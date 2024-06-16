@@ -31,11 +31,20 @@ Create a `.env` file in the `server` directory with the following content:
     ACCESS_TOKEN_SECRET=<your_access_token_secret>
     ACCESS_TOKEN_EXPIRY=10d
     CORS_ORIGIN=http://localhost:5173
-    GOOGLE_CLIENT_ID=<your_google_client_id>
-    GOOGLE_CLIENT_SECRET=<your_google_client_secret>
+    CLIENT_ID=<your_google_client_id>
+    CLIENT_SECRET=<your_google_client_secret>
     SESSION_SECRET=<your_session_secret>
     ```
     Replace <your_mongodb_uri>, <your_access_token_secret>, <your_google_client_id>, <your_google_client_secret>, and <your_session_secret> with your actual values.
+    \
+
+
+    **Note:** If you don't have `CLIENT_ID` and `CLIENT_SECRET`, set dummy value given below:
+
+    ```console
+    CLIENT_ID=dummy-client-id-1234567890abcdef
+    CLIENT_SECRET=dummy-client-secret-abcdefghijklmnopqrstuvwxyz0123456789
+    ```
 
 4. Start the server:
     ```console
@@ -43,11 +52,14 @@ Create a `.env` file in the `server` directory with the following content:
     ```
     The server will start on ```http://localhost:8000.```
 
+
 ### Client
+
+#### Open new terminal
 
 1. Navigate to the client directory:
     ```bash
-    cd ../client
+    cd .\client
     ```
 2. Install dependencies:
     ```bash
@@ -62,9 +74,11 @@ Create a `.env` file in the `server` directory with the following content:
 
 ### Model
 
+#### Open new terminal
+
 1. Navigate to the model directory:
     ```bash
-    cd ../model
+    cd .\model
     ```
 
 2. Run the Python script:
