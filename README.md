@@ -83,7 +83,7 @@ Create a `.env` file in the `server` directory with the following content:
 
 2. Run the Python script:
     ```bash
-    python trial.py
+    python api.py
     ```
 
 ## Configuration
